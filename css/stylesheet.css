@@ -1,0 +1,160 @@
+html, body {
+  height: 100%;
+}
+body {
+  font-family: Helvetica;
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  min-width: 335px;
+  display: block;
+}
+.section {
+  padding: 20px;
+}
+.subsection {
+  display: flex;
+  flex-direction: row;
+  padding-left: 50px;
+}
+.about {
+  padding: 0;
+  padding-right: 10px;
+  background-image: url("../img/paper.png");
+}
+.education {
+  background-image: url("../img/paper.png");
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.workexperience {
+  /*background-color: #f2f2ed;*/
+  background-image: url("../img/paper.png");
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.main {
+  padding: 0;
+  margin-bottom: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+.header {
+  height: 550px;
+  padding: 0;
+  /*width: 100%;
+  margin-left: auto;
+  margin-right: auto; */
+  background-image: url("../img/header.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.menu {
+  margin-left: 45%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-top: 0;
+  text-align: center;
+}
+.picture-circle {
+  border: solid 2px #F9F9F9;
+  height: auto;
+  width: auto;
+  max-width: 350px;
+  max-height: 350px;
+}
+
+.aboutme {
+  text-align: left;
+  align-self: center;
+}
+.contact {
+  align-self: center;
+}
+.headers {
+  width: 20%;
+  flex-grow: 1;
+  align-self: center;
+  text-align: left;
+  color: #e6795c;
+  padding-left: 5px;
+}
+.info {
+  width: 50%;
+  flex-grow: 2;
+  text-align: left;
+  padding: 10px;
+  border-right: 2px solid #DDD;
+  border-left: 2px solid #DDD;
+
+}
+.date {
+  width: 20%;
+  align-self: center;
+  padding-top: 5px;
+  padding-left: 10px;
+}
+.date p {
+  padding: 5px;
+  color: #FFF;
+  background: rgb(230, 121, 92);
+  opacity: 0.9;
+  float: left;
+}
+
+h1 {
+  padding-top: 200px;
+  color: #DDD;
+  font-size: 3em;
+  text-align: center;
+}
+h2 {
+  font-size: 1.5em;
+  text-align: left;
+  letter-spacing: 3px;
+}
+h4 {
+  padding-bottom: 5px;
+}
+.info p {
+  font-size: 12px;
+}
+.header p {
+  color: #DDD;
+  text-align: center;
+}
+.headers p {
+  font-size: 12px;
+}
+.subsection p {
+  text-align: left;
+  padding-bottom: 5px;
+}
+.ab p {
+  padding-left: 50px;
+  font-size: 12px;
+}
+li {
+  list-style-type: none;
+  display: inline;
+  float: left;
+  border-right: 1px solid #bbb;
+  border-left: 1px solid #bbb;
+}
+li a {
+  display: block;
+  text-decoration: none;
+  color: black;
+  width: 80px;
+}
+#schoolicon, #workicon {
+  float: left;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  padding-right: 5px;
+}
+#github, #linkedin {
+  margin-left: 50px;
+}
