@@ -55,6 +55,8 @@ body {
   border: solid 2px #F9F9F9;
   width: 100%;
   height: auto;
+  position: center;
+  margin-left: 15%;
   border-radius: 50%;
   max-width: 250px;
   max-height: 250px;
@@ -68,9 +70,17 @@ body {
   padding: 5px;
 }
 .contact {
-  width: 20%;
-  flex-grow: 1;
-  align-self: center;
+  margin-top: 50px;
+  background-image: none;
+  background-color: white;
+}
+.contact-info {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.contact p {
+  width: 90%;
+  padding: 20px 10px;
 }
 .headers {
   width: 20%;
@@ -127,6 +137,9 @@ h4 {
 .headers p {
   font-size: 12px;
 }
+.title {
+  font-weight: bold;
+}
 .subsection p {
   text-align: left;
   padding-bottom: 5px;
@@ -142,7 +155,6 @@ h4 {
 }
 li {
   display: inline-block;
-
   width: 80px;
 }
 li a {
@@ -154,7 +166,4 @@ li a {
   padding-top: 1px;
   padding-bottom: 1px;
   padding-right: 5px;
-}
-#github {
-  margin-left: 50px;
 }
