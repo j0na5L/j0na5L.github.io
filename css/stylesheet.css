@@ -14,14 +14,10 @@ body {
   padding: 20px 20px 20px 20px;
   margin-top: 20px;
   margin-bottom: 20px;
-  /* background-image: url("../img/paper.png"); */
 }
 .subsection {
   display: flex;
   flex-direction: row;
-}
-.about {
-  padding-left: 0;
 }
 .main {
   padding: 0;
@@ -36,7 +32,6 @@ body {
   padding: 0;
   margin-top: 0;
   margin-right: 320px;
-  /*background-image: url("../img/header2.png");*/
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -55,25 +50,22 @@ body {
   max-height: 350px;
 }
 
-.aboutme {
-  width: 50%;
-  flex-grow: 2;
-  text-align: left;
-  align-self: center;
-  padding: 5px;
-}
-.contact {
-  margin-top: 50px;
-  background-image: none;
-  background-color: white;
-}
 .contact-info {
   margin-top: 10px;
   margin-bottom: 10px;
 }
 .contact p {
-  width: 90%;
+  width: 20%;
+  align-self: center;
   padding: 20px 10px;
+}
+.contact {
+  width: 80%;
+  margin-top: 50px;
+  margin-left: 20%;
+  align-self: center;
+  background-image: none;
+  background-color: white;
 }
 .subheaders {
   width: 25%;
@@ -91,7 +83,6 @@ body {
   padding: 10px;
   border-right: 2px solid #DDD;
   border-left: 2px solid #DDD;
-
 }
 .date {
   width: 15%;
@@ -102,7 +93,6 @@ body {
 .date p {
   padding: 5px;
   color: #594B3B;
-/*  background: rgb(230, 121, 92); */
   float: left;
 }
 
@@ -151,10 +141,6 @@ h4 {
   font-size: 12px;
   text-align: right;
 }
-.ab p {
-  padding-left: 50px;
-  font-size: 12px;
-}
 .menu {
   width: 100%;
   margin-top: 0;
@@ -175,6 +161,7 @@ li a {
 }
 #schoolicon, #workicon {
   float: left;
+  margin-left: 270px;
   padding-top: 1px;
   padding-bottom: 1px;
   padding-right: 5px;
